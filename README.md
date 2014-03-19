@@ -1,4 +1,4 @@
 Tetris
 ======
 
-with GUI implemented in Java
+Implemented a command-line version and a GUI version of Tetris.
