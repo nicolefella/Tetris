@@ -186,15 +186,15 @@ public class TetrisGameGUIController extends JPanel implements KeyListener
         		this.game.attemptMove(2);
         		break;
        		//case for right (r)
-        	case KeyEvent.VK_R:
+        	case KeyEvent.VK_RIGHT:
         		this.game.attemptMove(3);
         		break;
         	//case for left (l)
-        	case KeyEvent.VK_L:
+        	case KeyEvent.VK_LEFT:
         		this.game.attemptMove(4);
         		break;
         	//case for down (d)
-        	case KeyEvent.VK_D:
+        	case KeyEvent.VK_DOWN:
         		this.game.attemptMove(5);
         		break;
         	default:
