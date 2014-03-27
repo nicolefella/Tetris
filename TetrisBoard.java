@@ -131,8 +131,7 @@ public class TetrisBoard
 			for (int j=0; j<4; j++)
 			{
 				//compare tetris piece with board 
-				if (piece.isFilled(rot, i, j) && ((gridCol<0 || (gridCol+j)>=NUM_COLS)) 
-															|| (gridRow+i)>=NUM_ROWS)
+				if (piece.isFilled(rot, i, j) && ((gridCol+j)>=NUM_COLS) || (gridRow+i)>=NUM_ROWS)
 					//if a filled piece is outside of the NUM_COLS or NUM_ROWS bounds
 					return true;
 			}
